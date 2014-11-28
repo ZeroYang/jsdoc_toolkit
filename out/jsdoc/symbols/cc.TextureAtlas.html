@@ -1,0 +1,2592 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+		<meta name="generator" content="JsDoc Toolkit" />
+		
+		<title>JsDoc Reference - cc.TextureAtlas</title>
+
+		<style type="text/css">
+			/* default.css */
+body
+{
+	font: 12px "Lucida Grande", Tahoma, Arial, Helvetica, sans-serif;
+	width: 800px;
+}
+
+.header
+{
+	clear: both;
+	background-color: #ccc;
+	padding: 8px;
+}
+
+h1
+{
+	font-size: 150%;
+	font-weight: bold;
+	padding: 0;
+	margin: 1em 0 0 .3em;
+}
+
+hr
+{
+	border: none 0;
+	border-top: 1px solid #7F8FB1;
+	height: 1px;
+}
+
+pre.code
+{
+	display: block;
+	padding: 8px;
+	border: 1px dashed #ccc;
+}
+
+#index
+{
+	margin-top: 24px;
+	float: left;
+	width: 160px;
+	position: absolute;
+	left: 8px;
+	background-color: #F3F3F3;
+	padding: 8px;
+}
+
+#content
+{
+	margin-left: 190px;
+	width: 600px;
+}
+
+.classList
+{
+	list-style-type: none;
+	padding: 0;
+	margin: 0 0 0 8px;
+	font-family: arial, sans-serif;
+	font-size: 1em;
+	overflow: auto;
+}
+
+.classList li
+{
+	padding: 0;
+	margin: 0 0 8px 0;
+}
+
+.summaryTable { width: 100%; }
+
+h1.classTitle
+{
+	font-size:170%;
+	line-height:130%;
+}
+
+h2 { font-size: 110%; }
+caption, div.sectionTitle
+{
+	background-color: #7F8FB1;
+	color: #fff;
+	font-size:130%;
+	text-align: left;
+	padding: 2px 6px 2px 6px;
+	border: 1px #7F8FB1 solid;
+}
+
+div.sectionTitle { margin-bottom: 8px; }
+.summaryTable thead { display: none; }
+
+.summaryTable td
+{
+	vertical-align: top;
+	padding: 4px;
+	border-bottom: 1px #7F8FB1 solid;
+	border-right: 1px #7F8FB1 solid;
+}
+
+/*col#summaryAttributes {}*/
+.summaryTable td.attributes
+{
+	border-left: 1px #7F8FB1 solid;
+	width: 140px;
+	text-align: right;
+}
+
+td.attributes, .fixedFont
+{
+	line-height: 15px;
+	color: #002EBE;
+	font-family: "Courier New",Courier,monospace;
+	font-size: 13px;
+}
+
+.summaryTable td.nameDescription
+{
+	text-align: left;
+	font-size: 13px;
+	line-height: 15px;
+}
+
+.summaryTable td.nameDescription, .description
+{
+	line-height: 15px;
+	padding: 4px;
+	padding-left: 4px;
+}
+
+.summaryTable { margin-bottom: 8px; }
+
+ul.inheritsList
+{
+	list-style: square;
+	margin-left: 20px;
+	padding-left: 0;
+}
+
+.detailList {
+	margin-left: 20px; 
+	line-height: 15px;
+}
+.detailList dt { margin-left: 20px; }
+
+.detailList .heading
+{
+	font-weight: bold;
+	padding-bottom: 6px;
+	margin-left: 0;
+}
+
+.light, td.attributes, .light a:link, .light a:visited
+{
+	color: #777;
+	font-style: italic;
+}
+
+.fineprint
+{
+	text-align: right;
+	font-size: 10px;
+}
+		</style>
+	</head>
+
+	<body>
+<!-- ============================== header ================================= -->	
+		<!-- begin static/header.html -->
+		<div id="header">
+</div>
+		<!-- end static/header.html -->
+
+<!-- ============================== classes index ============================ -->
+		<div id="index">
+			<!-- begin publish.classesIndex -->
+			<div align="center"><a href="../index.html">Class Index</a>
+| <a href="../files.html">File Index</a></div>
+<hr />
+<h2>Classes</h2>
+<ul class="classList">
+	
+	<li><i><a href="../symbols/_global_.html">_global_</a></i></li>
+	
+	<li><a href="../symbols/cc.Acceleration.html">cc.Acceleration</a></li>
+	
+	<li><a href="../symbols/cc.Action.html">cc.Action</a></li>
+	
+	<li><a href="../symbols/cc.ActionEase.html">cc.ActionEase</a></li>
+	
+	<li><a href="../symbols/cc.ActionInstant.html">cc.ActionInstant</a></li>
+	
+	<li><a href="../symbols/cc.ActionInterval.html">cc.ActionInterval</a></li>
+	
+	<li><a href="../symbols/cc.ActionManager.html">cc.ActionManager</a></li>
+	
+	<li><a href="../symbols/cc.ActionTween.html">cc.ActionTween</a></li>
+	
+	<li><a href="../symbols/cc.ActionTweenDelegate.html">cc.ActionTweenDelegate</a></li>
+	
+	<li><a href="../symbols/cc.AffineTransform.html">cc.AffineTransform</a></li>
+	
+	<li><a href="../symbols/cc.Animate.html">cc.Animate</a></li>
+	
+	<li><a href="../symbols/cc.Animation.html">cc.Animation</a></li>
+	
+	<li><a href="../symbols/cc.animationCache.html">cc.animationCache</a></li>
+	
+	<li><a href="../symbols/cc.AnimationFrame.html">cc.AnimationFrame</a></li>
+	
+	<li><a href="../symbols/cc.ArrayForObjectSorting.html">cc.ArrayForObjectSorting</a></li>
+	
+	<li><a href="../symbols/cc.AtlasNode.html">cc.AtlasNode</a></li>
+	
+	<li><a href="../symbols/cc.audioEngine.html">cc.audioEngine</a></li>
+	
+	<li><a href="../symbols/cc.BezierBy.html">cc.BezierBy</a></li>
+	
+	<li><a href="../symbols/cc.BezierTo.html">cc.BezierTo</a></li>
+	
+	<li><a href="../symbols/cc.BinaryStreamReader.html">cc.BinaryStreamReader</a></li>
+	
+	<li><a href="../symbols/cc.Blink.html">cc.Blink</a></li>
+	
+	<li><a href="../symbols/cc.CallFunc.html">cc.CallFunc</a></li>
+	
+	<li><a href="../symbols/cc.CardinalSplineBy.html">cc.CardinalSplineBy</a></li>
+	
+	<li><a href="../symbols/cc.CardinalSplineTo.html">cc.CardinalSplineTo</a></li>
+	
+	<li><a href="../symbols/cc.CatmullRomBy.html">cc.CatmullRomBy</a></li>
+	
+	<li><a href="../symbols/cc.CatmullRomTo.html">cc.CatmullRomTo</a></li>
+	
+	<li><a href="../symbols/cc.Class.html">cc.Class</a></li>
+	
+	<li><a href="../symbols/cc.ClippingNode.html">cc.ClippingNode</a></li>
+	
+	<li><a href="../symbols/cc.Color.html">cc.Color</a></li>
+	
+	<li><a href="../symbols/cc.Component.html">cc.Component</a></li>
+	
+	<li><a href="../symbols/cc.ComponentContainer.html">cc.ComponentContainer</a></li>
+	
+	<li><a href="../symbols/cc.configuration.html">cc.configuration</a></li>
+	
+	<li><a href="../symbols/cc.ContainerStrategy.html">cc.ContainerStrategy</a></li>
+	
+	<li><a href="../symbols/cc.ContentStrategy.html">cc.ContentStrategy</a></li>
+	
+	<li><a href="../symbols/cc.Control.html">cc.Control</a></li>
+	
+	<li><a href="../symbols/cc.ControlButton.html">cc.ControlButton</a></li>
+	
+	<li><a href="../symbols/cc.ControlColourPicker.html">cc.ControlColourPicker</a></li>
+	
+	<li><a href="../symbols/cc.ControlHuePicker.html">cc.ControlHuePicker</a></li>
+	
+	<li><a href="../symbols/cc.ControlPotentiometer.html">cc.ControlPotentiometer</a></li>
+	
+	<li><a href="../symbols/cc.ControlSaturationBrightnessPicker.html">cc.ControlSaturationBrightnessPicker</a></li>
+	
+	<li><a href="../symbols/cc.ControlSlider.html">cc.ControlSlider</a></li>
+	
+	<li><a href="../symbols/cc.ControlStepper.html">cc.ControlStepper</a></li>
+	
+	<li><a href="../symbols/cc.ControlSwitch.html">cc.ControlSwitch</a></li>
+	
+	<li><a href="../symbols/cc.ControlSwitchSprite.html">cc.ControlSwitchSprite</a></li>
+	
+	<li><a href="../symbols/cc.DelayTime.html">cc.DelayTime</a></li>
+	
+	<li><a href="../symbols/cc.Director.html">cc.Director</a></li>
+	
+	<li><a href="../symbols/cc.DrawingPrimitiveCanvas.html">cc.DrawingPrimitiveCanvas</a></li>
+	
+	<li><a href="../symbols/cc.DrawNode.html">cc.DrawNode</a></li>
+	
+	<li><a href="../symbols/cc.EaseBackIn.html">cc.EaseBackIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseBackInOut.html">cc.EaseBackInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseBackOut.html">cc.EaseBackOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseBezierAction.html">cc.EaseBezierAction</a></li>
+	
+	<li><a href="../symbols/cc.EaseBounce.html">cc.EaseBounce</a></li>
+	
+	<li><a href="../symbols/cc.EaseBounceIn.html">cc.EaseBounceIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseBounceInOut.html">cc.EaseBounceInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseBounceOut.html">cc.EaseBounceOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseCircleActionIn.html">cc.EaseCircleActionIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseCircleActionInOut.html">cc.EaseCircleActionInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseCircleActionOut.html">cc.EaseCircleActionOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseCubicActionIn.html">cc.EaseCubicActionIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseCubicActionInOut.html">cc.EaseCubicActionInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseCubicActionOut.html">cc.EaseCubicActionOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseElastic.html">cc.EaseElastic</a></li>
+	
+	<li><a href="../symbols/cc.EaseElasticIn.html">cc.EaseElasticIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseElasticInOut.html">cc.EaseElasticInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseElasticOut.html">cc.EaseElasticOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseExponentialIn.html">cc.EaseExponentialIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseExponentialInOut.html">cc.EaseExponentialInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseExponentialOut.html">cc.EaseExponentialOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseIn.html">cc.EaseIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseInOut.html">cc.EaseInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseOut.html">cc.EaseOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuadraticActionIn.html">cc.EaseQuadraticActionIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuadraticActionInOut.html">cc.EaseQuadraticActionInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuadraticActionOut.html">cc.EaseQuadraticActionOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuarticActionIn.html">cc.EaseQuarticActionIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuarticActionInOut.html">cc.EaseQuarticActionInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuarticActionOut.html">cc.EaseQuarticActionOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuinticActionIn.html">cc.EaseQuinticActionIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuinticActionInOut.html">cc.EaseQuinticActionInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseQuinticActionOut.html">cc.EaseQuinticActionOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseRateAction.html">cc.EaseRateAction</a></li>
+	
+	<li><a href="../symbols/cc.EaseSineIn.html">cc.EaseSineIn</a></li>
+	
+	<li><a href="../symbols/cc.EaseSineInOut.html">cc.EaseSineInOut</a></li>
+	
+	<li><a href="../symbols/cc.EaseSineOut.html">cc.EaseSineOut</a></li>
+	
+	<li><a href="../symbols/cc.EditBox.html">cc.EditBox</a></li>
+	
+	<li><a href="../symbols/cc.EditBoxDelegate.html">cc.EditBoxDelegate</a></li>
+	
+	<li><a href="../symbols/cc.Event.html">cc.Event</a></li>
+	
+	<li><a href="../symbols/cc.EventCustom.html">cc.EventCustom</a></li>
+	
+	<li><a href="../symbols/cc.EventFocus.html">cc.EventFocus</a></li>
+	
+	<li><a href="../symbols/cc.EventListener.html">cc.EventListener</a></li>
+	
+	<li><a href="../symbols/cc.eventManager.html">cc.eventManager</a></li>
+	
+	<li><a href="../symbols/cc.EventMouse.html">cc.EventMouse</a></li>
+	
+	<li><a href="../symbols/cc.EventTouch.html">cc.EventTouch</a></li>
+	
+	<li><a href="../symbols/cc.FadeIn.html">cc.FadeIn</a></li>
+	
+	<li><a href="../symbols/cc.FadeOut.html">cc.FadeOut</a></li>
+	
+	<li><a href="../symbols/cc.FadeOutBLTiles.html">cc.FadeOutBLTiles</a></li>
+	
+	<li><a href="../symbols/cc.FadeOutDownTiles.html">cc.FadeOutDownTiles</a></li>
+	
+	<li><a href="../symbols/cc.FadeOutTRTiles.html">cc.FadeOutTRTiles</a></li>
+	
+	<li><a href="../symbols/cc.FadeOutUpTiles.html">cc.FadeOutUpTiles</a></li>
+	
+	<li><a href="../symbols/cc.FadeTo.html">cc.FadeTo</a></li>
+	
+	<li><a href="../symbols/cc.FiniteTimeAction.html">cc.FiniteTimeAction</a></li>
+	
+	<li><a href="../symbols/cc.FlipX.html">cc.FlipX</a></li>
+	
+	<li><a href="../symbols/cc.FlipX3D.html">cc.FlipX3D</a></li>
+	
+	<li><a href="../symbols/cc.FlipY.html">cc.FlipY</a></li>
+	
+	<li><a href="../symbols/cc.FlipY3D.html">cc.FlipY3D</a></li>
+	
+	<li><a href="../symbols/cc.Follow.html">cc.Follow</a></li>
+	
+	<li><a href="../symbols/cc.FontDefinition.html">cc.FontDefinition</a></li>
+	
+	<li><a href="../symbols/cc.GLProgram.html">cc.GLProgram</a></li>
+	
+	<li><a href="../symbols/cc.Grabber.html">cc.Grabber</a></li>
+	
+	<li><a href="../symbols/cc.Grid3D.html">cc.Grid3D</a></li>
+	
+	<li><a href="../symbols/cc.Grid3DAction.html">cc.Grid3DAction</a></li>
+	
+	<li><a href="../symbols/cc.GridAction.html">cc.GridAction</a></li>
+	
+	<li><a href="../symbols/cc.GridBase.html">cc.GridBase</a></li>
+	
+	<li><a href="../symbols/cc.HashElement.html">cc.HashElement</a></li>
+	
+	<li><a href="../symbols/cc.Hide.html">cc.Hide</a></li>
+	
+	<li><a href="../symbols/cc.ImageTGA.html">cc.ImageTGA</a></li>
+	
+	<li><a href="../symbols/cc.IMEDelegate.html">cc.IMEDelegate</a></li>
+	
+	<li><a href="../symbols/cc.imeDispatcher.html">cc.imeDispatcher</a></li>
+	
+	<li><a href="../symbols/cc.IMEDispatcher.Impl.html">cc.IMEDispatcher.Impl</a></li>
+	
+	<li><a href="../symbols/cc.inputManager.html">cc.inputManager</a></li>
+	
+	<li><a href="../symbols/cc.Invocation.html">cc.Invocation</a></li>
+	
+	<li><a href="../symbols/cc.JumpBy.html">cc.JumpBy</a></li>
+	
+	<li><a href="../symbols/cc.JumpTiles3D.html">cc.JumpTiles3D</a></li>
+	
+	<li><a href="../symbols/cc.JumpTo.html">cc.JumpTo</a></li>
+	
+	<li><a href="../symbols/cc.kmQuaternion.html">cc.kmQuaternion</a></li>
+	
+	<li><a href="../symbols/cc.LabelAtlas.html">cc.LabelAtlas</a></li>
+	
+	<li><a href="../symbols/cc.LabelBMFont.html">cc.LabelBMFont</a></li>
+	
+	<li><a href="../symbols/cc.LabelTTF.html">cc.LabelTTF</a></li>
+	
+	<li><a href="../symbols/cc.Layer.html">cc.Layer</a></li>
+	
+	<li><a href="../symbols/cc.LayerColor.html">cc.LayerColor</a></li>
+	
+	<li><a href="../symbols/cc.LayerGradient.html">cc.LayerGradient</a></li>
+	
+	<li><a href="../symbols/cc.LayerMultiplex.html">cc.LayerMultiplex</a></li>
+	
+	<li><a href="../symbols/cc.Lens3D.html">cc.Lens3D</a></li>
+	
+	<li><a href="../symbols/cc.Liquid.html">cc.Liquid</a></li>
+	
+	<li><a href="../symbols/cc.Menu.html">cc.Menu</a></li>
+	
+	<li><a href="../symbols/cc.MenuItem.html">cc.MenuItem</a></li>
+	
+	<li><a href="../symbols/cc.MenuItemAtlasFont.html">cc.MenuItemAtlasFont</a></li>
+	
+	<li><a href="../symbols/cc.MenuItemFont.html">cc.MenuItemFont</a></li>
+	
+	<li><a href="../symbols/cc.MenuItemImage.html">cc.MenuItemImage</a></li>
+	
+	<li><a href="../symbols/cc.MenuItemLabel.html">cc.MenuItemLabel</a></li>
+	
+	<li><a href="../symbols/cc.MenuItemSprite.html">cc.MenuItemSprite</a></li>
+	
+	<li><a href="../symbols/cc.MenuItemToggle.html">cc.MenuItemToggle</a></li>
+	
+	<li><a href="../symbols/cc.MenuPassive.html">cc.MenuPassive</a></li>
+	
+	<li><a href="../symbols/cc.MotionStreak.html">cc.MotionStreak</a></li>
+	
+	<li><a href="../symbols/cc.MoveBy.html">cc.MoveBy</a></li>
+	
+	<li><a href="../symbols/cc.MoveTo.html">cc.MoveTo</a></li>
+	
+	<li><a href="../symbols/cc.Node.html">cc.Node</a></li>
+	
+	<li><a href="../symbols/cc.PageTurn3D.html">cc.PageTurn3D</a></li>
+	
+	<li><a href="../symbols/cc.ParallaxNode.html">cc.ParallaxNode</a></li>
+	
+	<li><a href="../symbols/cc.Particle.html">cc.Particle</a></li>
+	
+	<li><a href="../symbols/cc.Particle.ModeA.html">cc.Particle.ModeA</a></li>
+	
+	<li><a href="../symbols/cc.Particle.ModeB.html">cc.Particle.ModeB</a></li>
+	
+	<li><a href="../symbols/cc.ParticleBatchNode.html">cc.ParticleBatchNode</a></li>
+	
+	<li><a href="../symbols/cc.ParticleExplosion.html">cc.ParticleExplosion</a></li>
+	
+	<li><a href="../symbols/cc.ParticleFire.html">cc.ParticleFire</a></li>
+	
+	<li><a href="../symbols/cc.ParticleFireworks.html">cc.ParticleFireworks</a></li>
+	
+	<li><a href="../symbols/cc.ParticleFlower.html">cc.ParticleFlower</a></li>
+	
+	<li><a href="../symbols/cc.ParticleGalaxy.html">cc.ParticleGalaxy</a></li>
+	
+	<li><a href="../symbols/cc.ParticleMeteor.html">cc.ParticleMeteor</a></li>
+	
+	<li><a href="../symbols/cc.ParticleRain.html">cc.ParticleRain</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSmoke.html">cc.ParticleSmoke</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSnow.html">cc.ParticleSnow</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSpiral.html">cc.ParticleSpiral</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSun.html">cc.ParticleSun</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSystem.html">cc.ParticleSystem</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSystem.ModeA.html">cc.ParticleSystem.ModeA</a></li>
+	
+	<li><a href="../symbols/cc.ParticleSystem.ModeB.html">cc.ParticleSystem.ModeB</a></li>
+	
+	<li><a href="../symbols/cc.Place.html">cc.Place</a></li>
+	
+	<li><a href="../symbols/cc.plistParser.html">cc.plistParser</a></li>
+	
+	<li><a href="../symbols/cc.Point.html">cc.Point</a></li>
+	
+	<li><a href="../symbols/cc.PointObject.html">cc.PointObject</a></li>
+	
+	<li><a href="../symbols/cc.ProgressFromTo.html">cc.ProgressFromTo</a></li>
+	
+	<li><a href="../symbols/cc.ProgressTimer.html">cc.ProgressTimer</a></li>
+	
+	<li><a href="../symbols/cc.ProgressTo.html">cc.ProgressTo</a></li>
+	
+	<li><a href="../symbols/cc.ProtectedNode.html">cc.ProtectedNode</a></li>
+	
+	<li><a href="../symbols/cc.Rect.html">cc.Rect</a></li>
+	
+	<li><a href="../symbols/cc.RemoveSelf.html">cc.RemoveSelf</a></li>
+	
+	<li><a href="../symbols/cc.RenderTexture.html">cc.RenderTexture</a></li>
+	
+	<li><a href="../symbols/cc.Repeat.html">cc.Repeat</a></li>
+	
+	<li><a href="../symbols/cc.RepeatForever.html">cc.RepeatForever</a></li>
+	
+	<li><a href="../symbols/cc.ResolutionPolicy.html">cc.ResolutionPolicy</a></li>
+	
+	<li><a href="../symbols/cc.ReuseGrid.html">cc.ReuseGrid</a></li>
+	
+	<li><a href="../symbols/cc.ReverseTime.html">cc.ReverseTime</a></li>
+	
+	<li><a href="../symbols/cc.RGBA.html">cc.RGBA</a></li>
+	
+	<li><a href="../symbols/cc.Ripple3D.html">cc.Ripple3D</a></li>
+	
+	<li><a href="../symbols/cc.RotateBy.html">cc.RotateBy</a></li>
+	
+	<li><a href="../symbols/cc.RotateTo.html">cc.RotateTo</a></li>
+	
+	<li><a href="../symbols/cc.saxParser.html">cc.saxParser</a></li>
+	
+	<li><a href="../symbols/cc.Scale9Sprite.html">cc.Scale9Sprite</a></li>
+	
+	<li><a href="../symbols/cc.ScaleBy.html">cc.ScaleBy</a></li>
+	
+	<li><a href="../symbols/cc.ScaleTo.html">cc.ScaleTo</a></li>
+	
+	<li><a href="../symbols/cc.Scene.html">cc.Scene</a></li>
+	
+	<li><a href="../symbols/cc.Scheduler.html">cc.Scheduler</a></li>
+	
+	<li><a href="../symbols/cc.screen.html">cc.screen</a></li>
+	
+	<li><a href="../symbols/cc.ScrollView.html">cc.ScrollView</a></li>
+	
+	<li><a href="../symbols/cc.Sequence.html">cc.Sequence</a></li>
+	
+	<li><a href="../symbols/cc.shaderCache.html">cc.shaderCache</a></li>
+	
+	<li><a href="../symbols/cc.Shaky3D.html">cc.Shaky3D</a></li>
+	
+	<li><a href="../symbols/cc.ShakyTiles3D.html">cc.ShakyTiles3D</a></li>
+	
+	<li><a href="../symbols/cc.ShatteredTiles3D.html">cc.ShatteredTiles3D</a></li>
+	
+	<li><a href="../symbols/cc.Show.html">cc.Show</a></li>
+	
+	<li><a href="../symbols/cc.ShuffleTiles.html">cc.ShuffleTiles</a></li>
+	
+	<li><a href="../symbols/cc.Size.html">cc.Size</a></li>
+	
+	<li><a href="../symbols/cc.SkewBy.html">cc.SkewBy</a></li>
+	
+	<li><a href="../symbols/cc.SkewTo.html">cc.SkewTo</a></li>
+	
+	<li><a href="../symbols/cc.SortableObject.html">cc.SortableObject</a></li>
+	
+	<li><a href="../symbols/cc.SortedObject.html">cc.SortedObject</a></li>
+	
+	<li><a href="../symbols/cc.Spacer.html">cc.Spacer</a></li>
+	
+	<li><a href="../symbols/cc.Spawn.html">cc.Spawn</a></li>
+	
+	<li><a href="../symbols/cc.Speed.html">cc.Speed</a></li>
+	
+	<li><a href="../symbols/cc.SplitCols.html">cc.SplitCols</a></li>
+	
+	<li><a href="../symbols/cc.SplitRows.html">cc.SplitRows</a></li>
+	
+	<li><a href="../symbols/cc.Sprite.html">cc.Sprite</a></li>
+	
+	<li><a href="../symbols/cc.SpriteBatchNode.html">cc.SpriteBatchNode</a></li>
+	
+	<li><a href="../symbols/cc.SpriteFrame.html">cc.SpriteFrame</a></li>
+	
+	<li><a href="../symbols/cc.spriteFrameCache.html">cc.spriteFrameCache</a></li>
+	
+	<li><a href="../symbols/cc.StopGrid.html">cc.StopGrid</a></li>
+	
+	<li><a href="../symbols/cc.TableView.html">cc.TableView</a></li>
+	
+	<li><a href="../symbols/cc.TableViewCell.html">cc.TableViewCell</a></li>
+	
+	<li><a href="../symbols/cc.TargetedAction.html">cc.TargetedAction</a></li>
+	
+	<li><a href="../symbols/cc.Tex2F.html">cc.Tex2F</a></li>
+	
+	<li><a href="../symbols/cc.TextFieldDelegate.html">cc.TextFieldDelegate</a></li>
+	
+	<li><a href="../symbols/cc.TextFieldTTF.html">cc.TextFieldTTF</a></li>
+	
+	<li><a href="../symbols/cc.Texture2D.html">cc.Texture2D</a></li>
+	
+	<li><a href="../symbols/cc.TextureAtlas.html">cc.TextureAtlas</a></li>
+	
+	<li><a href="../symbols/cc.textureCache.html">cc.textureCache</a></li>
+	
+	<li><a href="../symbols/cc.Tile.html">cc.Tile</a></li>
+	
+	<li><a href="../symbols/cc.TiledGrid3D.html">cc.TiledGrid3D</a></li>
+	
+	<li><a href="../symbols/cc.TiledGrid3DAction.html">cc.TiledGrid3DAction</a></li>
+	
+	<li><a href="../symbols/cc.Timer.html">cc.Timer</a></li>
+	
+	<li><a href="../symbols/cc.TintBy.html">cc.TintBy</a></li>
+	
+	<li><a href="../symbols/cc.TintTo.html">cc.TintTo</a></li>
+	
+	<li><a href="../symbols/cc.TMXLayer.html">cc.TMXLayer</a></li>
+	
+	<li><a href="../symbols/cc.TMXLayerInfo.html">cc.TMXLayerInfo</a></li>
+	
+	<li><a href="../symbols/cc.TMXMapInfo.html">cc.TMXMapInfo</a></li>
+	
+	<li><a href="../symbols/cc.TMXObjectGroup.html">cc.TMXObjectGroup</a></li>
+	
+	<li><a href="../symbols/cc.TMXTiledMap.html">cc.TMXTiledMap</a></li>
+	
+	<li><a href="../symbols/cc.TMXTilesetInfo.html">cc.TMXTilesetInfo</a></li>
+	
+	<li><a href="../symbols/cc.ToggleVisibility.html">cc.ToggleVisibility</a></li>
+	
+	<li><a href="../symbols/cc.Touch.html">cc.Touch</a></li>
+	
+	<li><a href="../symbols/cc.TransitionCrossFade.html">cc.TransitionCrossFade</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFade.html">cc.TransitionFade</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFadeBL.html">cc.TransitionFadeBL</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFadeDown.html">cc.TransitionFadeDown</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFadeTR.html">cc.TransitionFadeTR</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFadeUp.html">cc.TransitionFadeUp</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFlipAngular.html">cc.TransitionFlipAngular</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFlipX.html">cc.TransitionFlipX</a></li>
+	
+	<li><a href="../symbols/cc.TransitionFlipY.html">cc.TransitionFlipY</a></li>
+	
+	<li><a href="../symbols/cc.TransitionJumpZoom.html">cc.TransitionJumpZoom</a></li>
+	
+	<li><a href="../symbols/cc.TransitionMoveInB.html">cc.TransitionMoveInB</a></li>
+	
+	<li><a href="../symbols/cc.TransitionMoveInL.html">cc.TransitionMoveInL</a></li>
+	
+	<li><a href="../symbols/cc.TransitionMoveInR.html">cc.TransitionMoveInR</a></li>
+	
+	<li><a href="../symbols/cc.TransitionMoveInT.html">cc.TransitionMoveInT</a></li>
+	
+	<li><a href="../symbols/cc.TransitionPageTurn.html">cc.TransitionPageTurn</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgress.html">cc.TransitionProgress</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgressHorizontal.html">cc.TransitionProgressHorizontal</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgressInOut.html">cc.TransitionProgressInOut</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgressOutIn.html">cc.TransitionProgressOutIn</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgressRadialCCW.html">cc.TransitionProgressRadialCCW</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgressRadialCW.html">cc.TransitionProgressRadialCW</a></li>
+	
+	<li><a href="../symbols/cc.TransitionProgressVertical.html">cc.TransitionProgressVertical</a></li>
+	
+	<li><a href="../symbols/cc.TransitionRotoZoom.html">cc.TransitionRotoZoom</a></li>
+	
+	<li><a href="../symbols/cc.TransitionScene.html">cc.TransitionScene</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSceneOriented.html">cc.TransitionSceneOriented</a></li>
+	
+	<li><a href="../symbols/cc.TransitionShrinkGrow.html">cc.TransitionShrinkGrow</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSlideInB.html">cc.TransitionSlideInB</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSlideInL.html">cc.TransitionSlideInL</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSlideInR.html">cc.TransitionSlideInR</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSlideInT.html">cc.TransitionSlideInT</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSplitCols.html">cc.TransitionSplitCols</a></li>
+	
+	<li><a href="../symbols/cc.TransitionSplitRows.html">cc.TransitionSplitRows</a></li>
+	
+	<li><a href="../symbols/cc.TransitionTurnOffTiles.html">cc.TransitionTurnOffTiles</a></li>
+	
+	<li><a href="../symbols/cc.TransitionZoomFlipAngular.html">cc.TransitionZoomFlipAngular</a></li>
+	
+	<li><a href="../symbols/cc.TransitionZoomFlipX.html">cc.TransitionZoomFlipX</a></li>
+	
+	<li><a href="../symbols/cc.TransitionZoomFlipY.html">cc.TransitionZoomFlipY</a></li>
+	
+	<li><a href="../symbols/cc.TurnOffTiles.html">cc.TurnOffTiles</a></li>
+	
+	<li><a href="../symbols/cc.Twirl.html">cc.Twirl</a></li>
+	
+	<li><a href="../symbols/cc.Vertex2F.html">cc.Vertex2F</a></li>
+	
+	<li><a href="../symbols/cc.Vertex3F.html">cc.Vertex3F</a></li>
+	
+	<li><a href="../symbols/cc.view.html">cc.view</a></li>
+	
+	<li><a href="../symbols/cc.visibleRect.html">cc.visibleRect</a></li>
+	
+	<li><a href="../symbols/cc.Waves.html">cc.Waves</a></li>
+	
+	<li><a href="../symbols/cc.Waves3D.html">cc.Waves3D</a></li>
+	
+	<li><a href="../symbols/cc.WavesTiles3D.html">cc.WavesTiles3D</a></li>
+	
+	<li><a href="../symbols/cc.WebAudio.html">cc.WebAudio</a></li>
+	
+	<li><a href="../symbols/ccs.html">ccs</a></li>
+	
+	<li><a href="../symbols/ccs.ActionFadeFrame.html">ccs.ActionFadeFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ActionFrame.html">ccs.ActionFrame</a></li>
+	
+	<li><a href="../symbols/ccs.actionManager.html">ccs.actionManager</a></li>
+	
+	<li><a href="../symbols/ccs.ActionMoveFrame.html">ccs.ActionMoveFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ActionNode.html">ccs.ActionNode</a></li>
+	
+	<li><a href="../symbols/ccs.ActionObject.html">ccs.ActionObject</a></li>
+	
+	<li><a href="../symbols/ccs.ActionRotationFrame.html">ccs.ActionRotationFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ActionScaleFrame.html">ccs.ActionScaleFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ActionTimeline.html">ccs.ActionTimeline</a></li>
+	
+	<li><a href="../symbols/ccs.ActionTimelineCache.html">ccs.ActionTimelineCache</a></li>
+	
+	<li><a href="../symbols/ccs.ActionTimelineData.html">ccs.ActionTimelineData</a></li>
+	
+	<li><a href="../symbols/ccs.ActionTintFrame.html">ccs.ActionTintFrame</a></li>
+	
+	<li><a href="../symbols/ccs.AnchorPointFrame.html">ccs.AnchorPointFrame</a></li>
+	
+	<li><a href="../symbols/ccs.AnimationData.html">ccs.AnimationData</a></li>
+	
+	<li><a href="../symbols/ccs.AnimationEvent.html">ccs.AnimationEvent</a></li>
+	
+	<li><a href="../symbols/ccs.Armature.html">ccs.Armature</a></li>
+	
+	<li><a href="../symbols/ccs.ArmatureAnimation.html">ccs.ArmatureAnimation</a></li>
+	
+	<li><a href="../symbols/ccs.ArmatureData.html">ccs.ArmatureData</a></li>
+	
+	<li><a href="../symbols/ccs.armatureDataManager.html">ccs.armatureDataManager</a></li>
+	
+	<li><a href="../symbols/ccs.ArmatureDisplayData.html">ccs.ArmatureDisplayData</a></li>
+	
+	<li><a href="../symbols/ccs.BaseData.html">ccs.BaseData</a></li>
+	
+	<li><a href="../symbols/ccs.Bone.html">ccs.Bone</a></li>
+	
+	<li><a href="../symbols/ccs.BoneData.html">ccs.BoneData</a></li>
+	
+	<li><a href="../symbols/ccs.Class.html">ccs.Class</a></li>
+	
+	<li><a href="../symbols/ccs.ColliderBody.html">ccs.ColliderBody</a></li>
+	
+	<li><a href="../symbols/ccs.ColliderDetector.html">ccs.ColliderDetector</a></li>
+	
+	<li><a href="../symbols/ccs.ColliderFilter.html">ccs.ColliderFilter</a></li>
+	
+	<li><a href="../symbols/ccs.ColorFrame.html">ccs.ColorFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ComAttribute.html">ccs.ComAttribute</a></li>
+	
+	<li><a href="../symbols/ccs.ComAudio.html">ccs.ComAudio</a></li>
+	
+	<li><a href="../symbols/ccs.ComController.html">ccs.ComController</a></li>
+	
+	<li><a href="../symbols/ccs.Component.html">ccs.Component</a></li>
+	
+	<li><a href="../symbols/ccs.ComRender.html">ccs.ComRender</a></li>
+	
+	<li><a href="../symbols/ccs.ContourData.html">ccs.ContourData</a></li>
+	
+	<li><a href="../symbols/ccs.ContourVertex2.html">ccs.ContourVertex2</a></li>
+	
+	<li><a href="../symbols/ccs.dataReaderHelper.html">ccs.dataReaderHelper</a></li>
+	
+	<li><a href="../symbols/ccs.DecorativeDisplay.html">ccs.DecorativeDisplay</a></li>
+	
+	<li><a href="../symbols/ccs.DisplayData.html">ccs.DisplayData</a></li>
+	
+	<li><a href="../symbols/ccs.EventFrame.html">ccs.EventFrame</a></li>
+	
+	<li><a href="../symbols/ccs.Frame.html">ccs.Frame</a></li>
+	
+	<li><a href="../symbols/ccs.FrameData.html">ccs.FrameData</a></li>
+	
+	<li><a href="../symbols/ccs.FrameEvent.html">ccs.FrameEvent</a></li>
+	
+	<li><a href="../symbols/ccs.InnerActionFrame.html">ccs.InnerActionFrame</a></li>
+	
+	<li><a href="../symbols/ccs.InnerActionType.html">ccs.InnerActionType</a></li>
+	
+	<li><a href="../symbols/ccs.MovementBoneData.html">ccs.MovementBoneData</a></li>
+	
+	<li><a href="../symbols/ccs.MovementData.html">ccs.MovementData</a></li>
+	
+	<li><a href="../symbols/ccs.MovementEvent.html">ccs.MovementEvent</a></li>
+	
+	<li><a href="../symbols/ccs.Node.html">ccs.Node</a></li>
+	
+	<li><a href="../symbols/ccs.ParticleDisplayData.html">ccs.ParticleDisplayData</a></li>
+	
+	<li><a href="../symbols/ccs.PositionFrame.html">ccs.PositionFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ProcessBase.html">ccs.ProcessBase</a></li>
+	
+	<li><a href="../symbols/ccs.RelativeData.html">ccs.RelativeData</a></li>
+	
+	<li><a href="../symbols/ccs.RotationFrame.html">ccs.RotationFrame</a></li>
+	
+	<li><a href="../symbols/ccs.RotationSkewFrame.html">ccs.RotationSkewFrame</a></li>
+	
+	<li><a href="../symbols/ccs.ScaleFrame.html">ccs.ScaleFrame</a></li>
+	
+	<li><a href="../symbols/ccs.sceneReader.html">ccs.sceneReader</a></li>
+	
+	<li><a href="../symbols/ccs.SkewFrame.html">ccs.SkewFrame</a></li>
+	
+	<li><a href="../symbols/ccs.Skin.html">ccs.Skin</a></li>
+	
+	<li><a href="../symbols/ccs.Sprite.html">ccs.Sprite</a></li>
+	
+	<li><a href="../symbols/ccs.SpriteDisplayData.html">ccs.SpriteDisplayData</a></li>
+	
+	<li><a href="../symbols/ccs.spriteFrameCacheHelper.html">ccs.spriteFrameCacheHelper</a></li>
+	
+	<li><a href="../symbols/ccs.TextureData.html">ccs.TextureData</a></li>
+	
+	<li><a href="../symbols/ccs.TextureFrame.html">ccs.TextureFrame</a></li>
+	
+	<li><a href="../symbols/ccs.Timeline.html">ccs.Timeline</a></li>
+	
+	<li><a href="../symbols/ccs.TransformHelp.html">ccs.TransformHelp</a></li>
+	
+	<li><a href="../symbols/ccs.Tween.html">ccs.Tween</a></li>
+	
+	<li><a href="../symbols/ccs.uiReader.html">ccs.uiReader</a></li>
+	
+	<li><a href="../symbols/ccs.VisibleFrame.html">ccs.VisibleFrame</a></li>
+	
+	<li><a href="../symbols/ccs.WidgetPropertiesReader.html">ccs.WidgetPropertiesReader</a></li>
+	
+	<li><a href="../symbols/ccs.WidgetPropertiesReader0250.html">ccs.WidgetPropertiesReader0250</a></li>
+	
+	<li><a href="../symbols/ccs.WidgetPropertiesReader0300.html">ccs.WidgetPropertiesReader0300</a></li>
+	
+	<li><a href="../symbols/ccs.ZOrderFrame.html">ccs.ZOrderFrame</a></li>
+	
+	<li><a href="../symbols/ccui.html">ccui</a></li>
+	
+	<li><a href="../symbols/ccui.Button.html">ccui.Button</a></li>
+	
+	<li><a href="../symbols/ccui.CheckBox.html">ccui.CheckBox</a></li>
+	
+	<li><a href="../symbols/ccui.Class.html">ccui.Class</a></li>
+	
+	<li><a href="../symbols/ccui.HBox.html">ccui.HBox</a></li>
+	
+	<li><a href="../symbols/ccui.helper.html">ccui.helper</a></li>
+	
+	<li><a href="../symbols/ccui.ImageView.html">ccui.ImageView</a></li>
+	
+	<li><a href="../symbols/ccui.Layout.html">ccui.Layout</a></li>
+	
+	<li><a href="../symbols/ccui.LayoutParameter.html">ccui.LayoutParameter</a></li>
+	
+	<li><a href="../symbols/ccui.linearHorizontalLayoutManager.html">ccui.linearHorizontalLayoutManager</a></li>
+	
+	<li><a href="../symbols/ccui.LinearLayoutParameter.html">ccui.LinearLayoutParameter</a></li>
+	
+	<li><a href="../symbols/ccui.linearVerticalLayoutManager.html">ccui.linearVerticalLayoutManager</a></li>
+	
+	<li><a href="../symbols/ccui.ListView.html">ccui.ListView</a></li>
+	
+	<li><a href="../symbols/ccui.LoadingBar.html">ccui.LoadingBar</a></li>
+	
+	<li><a href="../symbols/ccui.Margin.html">ccui.Margin</a></li>
+	
+	<li><a href="../symbols/ccui.Node.html">ccui.Node</a></li>
+	
+	<li><a href="../symbols/ccui.PageView.html">ccui.PageView</a></li>
+	
+	<li><a href="../symbols/ccui.ProtectedNode.html">ccui.ProtectedNode</a></li>
+	
+	<li><a href="../symbols/ccui.RelativeBox.html">ccui.RelativeBox</a></li>
+	
+	<li><a href="../symbols/ccui.relativeLayoutManager.html">ccui.relativeLayoutManager</a></li>
+	
+	<li><a href="../symbols/ccui.RelativeLayoutParameter.html">ccui.RelativeLayoutParameter</a></li>
+	
+	<li><a href="../symbols/ccui.Scale9Sprite.html">ccui.Scale9Sprite</a></li>
+	
+	<li><a href="../symbols/ccui.ScrollView.html">ccui.ScrollView</a></li>
+	
+	<li><a href="../symbols/ccui.Slider.html">ccui.Slider</a></li>
+	
+	<li><a href="../symbols/ccui.TextField.html">ccui.TextField</a></li>
+	
+	<li><a href="../symbols/ccui.VBox.html">ccui.VBox</a></li>
+	
+	<li><a href="../symbols/ccui.Widget.html">ccui.Widget</a></li>
+	
+	<li><a href="../symbols/ClassManager.html">ClassManager</a></li>
+	
+	<li><a href="../symbols/sp.html">sp</a></li>
+	
+	<li><a href="../symbols/sp.Skeleton.html">sp.Skeleton</a></li>
+	
+	<li><a href="../symbols/sp.SkeletonAnimation.html">sp.SkeletonAnimation</a></li>
+	
+</ul>
+<hr />
+			<!-- end publish.classesIndex -->
+		</div>
+		
+		<div id="content">
+<!-- ============================== class title ============================ -->
+			<h1 class="classTitle">
+				
+				Class cc.TextureAtlas
+			</h1>
+
+<!-- ============================== class summary ========================== -->			
+			<p class="description">
+				
+				<br />Extends
+					<a href="../symbols/cc.Class.html">cc.Class</a>.<br />
+				
+			
+				
+				
+				
+					<br /><i>Defined in: </i> <a href="../symbols/src/_Users_zeroyang_Documents_work_cocos2d-js-v3.1_frameworks_cocos2d-html5_cocos2d_core_textures_CCTextureAtlas.js.html">CCTextureAtlas.js</a>.
+				
+			</p>
+
+<!-- ============================== constructor summary ==================== -->			
+			
+			<table class="summaryTable" cellspacing="0" summary="A summary of the constructor documented in the class cc.TextureAtlas.">
+				<caption>Class Summary</caption>
+				<thead>
+					<tr>
+						<th scope="col">Constructor Attributes</th>
+						<th scope="col">Constructor Name and Description</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td class="attributes">&nbsp;</td>
+						<td class="nameDescription" >
+							<div class="fixedFont">
+								<b><a href="../symbols/cc.TextureAtlas.html#constructor">cc.TextureAtlas</a></b>()
+							</div>
+							<div class="description"><p>A class that implements a Texture Atlas.</div>
+						</td>
+					</tr>
+				</tbody>
+			</table>
+			
+
+<!-- ============================== properties summary ===================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the fields documented in the class cc.TextureAtlas.">
+					<caption>Field Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Field Attributes</th>
+							<th scope="col">Field Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/cc.TextureAtlas.html#capacity">capacity</a></b>
+								</div>
+								<div class="description">- <@readonly> Quantity of quads that can be stored with the current texture atlas size.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/cc.TextureAtlas.html#dirty">dirty</a></b>
+								</div>
+								<div class="description">- Indicates whether or not the array buffer of the VBO needs to be updated.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/cc.TextureAtlas.html#quads">quads</a></b>
+								</div>
+								<div class="description">- <@readonly> Quads that are going to be rendered</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/cc.TextureAtlas.html#texture">texture</a></b>
+								</div>
+								<div class="description">- Image texture for cc.TextureAtlas.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">
+								<b><a href="../symbols/cc.TextureAtlas.html#totalQuads">totalQuads</a></b>
+								</div>
+								<div class="description">- <@readonly> Quantity of quads that are going to be drawn.</div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				
+				</dl>
+				
+			
+
+<!-- ============================== methods summary ======================== -->
+			
+				
+				
+				<table class="summaryTable" cellspacing="0" summary="A summary of the methods documented in the class cc.TextureAtlas.">
+					<caption>Method Summary</caption>
+					<thead>
+						<tr>
+							<th scope="col">Method Attributes</th>
+							<th scope="col">Method Name and Description</th>
+						</tr>
+					</thead>
+					<tbody>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">cc.TextureAtlas.<b><a href="../symbols/cc.TextureAtlas.html#.create">create</a></b>(fileName, capacity)
+								</div>
+								<div class="description"><p>Creates a TextureAtlas with an filename and with an initial capacity for Quads.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&lt;static&gt; &nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont">cc.TextureAtlas.<b><a href="../symbols/cc.TextureAtlas.html#.createWithTexture">createWithTexture</a></b>()
+								</div>
+								<div class="description"></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#ctor">ctor</a></b>(fileName, capacity)
+								</div>
+								<div class="description"><p>Creates a TextureAtlas with an filename and with an initial capacity for Quads.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#description">description</a></b>()
+								</div>
+								<div class="description">Description</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#drawQuads">drawQuads</a></b>()
+								</div>
+								<div class="description">Draws all the Atlas's Quads</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#fillWithEmptyQuadsFromIndex">fillWithEmptyQuadsFromIndex</a></b>(index, amount)
+								</div>
+								<div class="description">Ensures that after a realloc quads are still empty                                <br/>
+Used internally by CCParticleBatchNode</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#getCapacity">getCapacity</a></b>()
+								</div>
+								<div class="description">Quantity of quads that can be stored with the current texture atlas size</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#getQuads">getQuads</a></b>()
+								</div>
+								<div class="description">Quads that are going to be rendered</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#getTexture">getTexture</a></b>()
+								</div>
+								<div class="description">Texture of the texture atlas</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#getTotalQuads">getTotalQuads</a></b>()
+								</div>
+								<div class="description">Quantity of quads that are going to be drawn.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#increaseTotalQuadsWith">increaseTotalQuadsWith</a></b>(amount)
+								</div>
+								<div class="description">Used internally by CCParticleBatchNode                                    <br/>
+don't use this unless you know what you're doing</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#initWithFile">initWithFile</a></b>(file, capacity)
+								</div>
+								<div class="description"><p>Initializes a TextureAtlas with a filename and with a certain capacity for Quads.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#initWithTexture">initWithTexture</a></b>(texture, capacity)
+								</div>
+								<div class="description"><p>Initializes a TextureAtlas with a previously initialized Texture2D object, and<br />
+with an initial capacity for Quads.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#insertQuad">insertQuad</a></b>(quad, index)
+								</div>
+								<div class="description"><p>Inserts a Quad (texture, vertex and color) at a certain index<br />
+index must be between 0 and the atlas capacity - 1 </p></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#insertQuadFromIndex">insertQuadFromIndex</a></b>(fromIndex, newIndex)
+								</div>
+								<div class="description"><p>Removes the quad that is located at a certain index and inserts it at a new index <br />
+This operation is faster than removing and inserting in a quad in 2 different steps</p></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#insertQuads">insertQuads</a></b>(quads, index, amount)
+								</div>
+								<div class="description"><p>
+     Inserts a c array of quads at a given index                                           <br />
+     index must be between 0 and the atlas capacity - 1                                    <br />
+     this method doesn't enlarge the array when amount + index > totalQuads                <br />
+</p></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#isDirty">isDirty</a></b>()
+								</div>
+								<div class="description">whether or not the array buffer of the VBO needs to be updated</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#moveQuadsFromIndex">moveQuadsFromIndex</a></b>(oldIndex, amount, newIndex)
+								</div>
+								<div class="description">Moves an amount of quads from oldIndex at newIndex</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#removeAllQuads">removeAllQuads</a></b>()
+								</div>
+								<div class="description"><p>Removes all Quads.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#removeQuadAtIndex">removeQuadAtIndex</a></b>(index)
+								</div>
+								<div class="description"><p>Removes a quad at a given index number.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#removeQuadsAtIndex">removeQuadsAtIndex</a></b>(index, amount)
+								</div>
+								<div class="description">Removes a given number of quads at a given index</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#resizeCapacity">resizeCapacity</a></b>(newCapacity)
+								</div>
+								<div class="description"><p>Resize the capacity of the CCTextureAtlas.</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#setDirty">setDirty</a></b>(dirty)
+								</div>
+								<div class="description">specify if the array buffer of the VBO needs to be updated</div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#setQuads">setQuads</a></b>(quads)
+								</div>
+								<div class="description"></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#setTexture">setTexture</a></b>(texture)
+								</div>
+								<div class="description"></div>
+							</td>
+						</tr>
+					
+						<tr>
+							<td class="attributes">&nbsp;</td>
+							<td class="nameDescription">
+								<div class="fixedFont"><b><a href="../symbols/cc.TextureAtlas.html#updateQuad">updateQuad</a></b>(quad, index)
+								</div>
+								<div class="description"><p>Updates a Quad (texture, vertex and color) at a certain index <br />
+index must be between 0 and the atlas capacity - 1 </p></div>
+							</td>
+						</tr>
+					
+					</tbody>
+				</table>
+				
+				
+				
+				<dl class="inheritsList">
+				
+				</dl>
+				
+			
+<!-- ============================== events summary ======================== -->
+			
+
+<!-- ============================== constructor details ==================== -->		
+			
+			<div class="details"><a name="constructor"> </a>
+				<div class="sectionTitle">
+					Class Detail
+				</div>
+				
+				<div class="fixedFont">
+						<b>cc.TextureAtlas</b>()
+				</div>
+				
+				<div class="description">
+					<p>A class that implements a Texture Atlas. <br />
+Supported features: <br />
+The atlas file can be a PNG, JPG. <br />
+Quads can be updated in runtime <br />
+Quads can be added in runtime <br />
+Quads can be removed in runtime <br />
+Quads can be re-ordered in runtime <br />
+The TextureAtlas capacity can be increased or decreased in runtime.</p>
+					
+				</div>
+				
+				
+				
+				
+					
+					
+					
+					
+					
+					
+					
+
+			</div>
+			
+
+<!-- ============================== field details ========================== -->		
+			
+				<div class="sectionTitle">
+					Field Detail
+				</div>
+				
+					<a name="capacity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>capacity</b>
+					
+					</div>
+					<div class="description">
+						- <@readonly> Quantity of quads that can be stored with the current texture atlas size.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="dirty"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>dirty</b>
+					
+					</div>
+					<div class="description">
+						- Indicates whether or not the array buffer of the VBO needs to be updated.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="quads"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>quads</b>
+					
+					</div>
+					<div class="description">
+						- <@readonly> Quads that are going to be rendered
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="texture"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Image}</span>
+					<b>texture</b>
+					
+					</div>
+					<div class="description">
+						- Image texture for cc.TextureAtlas.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="totalQuads"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>totalQuads</b>
+					
+					</div>
+					<div class="description">
+						- <@readonly> Quantity of quads that are going to be drawn.
+						
+						
+					</div>
+					
+					
+
+						
+						
+						
+						
+
+					
+				
+			
+
+<!-- ============================== method details ========================= -->		
+			
+				<div class="sectionTitle">
+					Method Detail
+				</div>
+				
+					<a name=".create"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					<span class="light">{<a href="../symbols/cc.TextureAtlas.html">cc.TextureAtlas</a>|Null}</span>
+					<span class="light">cc.TextureAtlas.</span><b>create</b>(fileName, capacity)
+					
+					</div>
+					<div class="description">
+						<p>Creates a TextureAtlas with an filename and with an initial capacity for Quads. <br />
+The TextureAtlas capacity can be increased in runtime. </p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|<a href="../symbols/cc.Texture2D.html">cc.Texture2D</a>}</span> <b>fileName</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>capacity</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								since v3.0, please use new cc.TextureAtlas(fileName, capacity) instead
+							</dt>
+							</dl>
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{<a href="../symbols/cc.TextureAtlas.html">cc.TextureAtlas</a>|Null}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name=".createWithTexture"> </a>
+					<div class="fixedFont">&lt;static&gt; 
+					
+					
+					<span class="light">cc.TextureAtlas.</span><b>createWithTexture</b>()
+					
+					</div>
+					<div class="description">
+						
+						
+						
+					</div>
+					
+					
+					
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Deprecated:</dt>
+							<dt>
+								since v3.0, please use new cc.TextureAtlas(texture) instead
+							</dt>
+							</dl>
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="ctor"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>ctor</b>(fileName, capacity)
+					
+					</div>
+					<div class="description">
+						<p>Creates a TextureAtlas with an filename and with an initial capacity for Quads. <br />
+The TextureAtlas capacity can be increased in runtime. </p>
+Constructor of cc.TextureAtlas
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">1.
+//creates a TextureAtlas with  filename
+var textureAtlas = new cc.TextureAtlas("res/hello.png", 3);
+2.
+//creates a TextureAtlas with texture
+var texture = cc.textureCache.addImage("hello.png");
+var textureAtlas = new cc.TextureAtlas(texture, 3);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String|<a href="../symbols/cc.Texture2D.html">cc.Texture2D</a>}</span> <b>fileName</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>capacity</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="description"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{String}</span>
+					<b>description</b>()
+					
+					</div>
+					<div class="description">
+						Description
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{String}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="drawQuads"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>drawQuads</b>()
+					
+					</div>
+					<div class="description">
+						Draws all the Atlas's Quads
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="fillWithEmptyQuadsFromIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>fillWithEmptyQuadsFromIndex</b>(index, amount)
+					
+					</div>
+					<div class="description">
+						Ensures that after a realloc quads are still empty                                <br/>
+Used internally by CCParticleBatchNode
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>index</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>amount</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="getCapacity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getCapacity</b>()
+					
+					</div>
+					<div class="description">
+						Quantity of quads that can be stored with the current texture atlas size
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getQuads"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Array}</span>
+					<b>getQuads</b>()
+					
+					</div>
+					<div class="description">
+						Quads that are going to be rendered
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Array}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTexture"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Image}</span>
+					<b>getTexture</b>()
+					
+					</div>
+					<div class="description">
+						Texture of the texture atlas
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Image}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="getTotalQuads"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Number}</span>
+					<b>getTotalQuads</b>()
+					
+					</div>
+					<div class="description">
+						Quantity of quads that are going to be drawn.
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Number}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="increaseTotalQuadsWith"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>increaseTotalQuadsWith</b>(amount)
+					
+					</div>
+					<div class="description">
+						Used internally by CCParticleBatchNode                                    <br/>
+don't use this unless you know what you're doing
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>amount</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="initWithFile"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>initWithFile</b>(file, capacity)
+					
+					</div>
+					<div class="description">
+						<p>Initializes a TextureAtlas with a filename and with a certain capacity for Quads.<br />
+The TextureAtlas capacity can be increased in runtime.<br />
+WARNING: Do not reinitialize the TextureAtlas because it will leak memory. </p>
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">//example
+var textureAtlas = new cc.TextureAtlas();
+textureAtlas.initWithTexture("hello.png", 3);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{String}</span> <b>file</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>capacity</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="initWithTexture"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>initWithTexture</b>(texture, capacity)
+					
+					</div>
+					<div class="description">
+						<p>Initializes a TextureAtlas with a previously initialized Texture2D object, and<br />
+with an initial capacity for Quads.<br />
+The TextureAtlas capacity can be increased in runtime.<br />
+WARNING: Do not reinitialize the TextureAtlas because it will leak memory</p>
+						
+						
+					</div>
+					
+					
+					
+					<pre class="code">//example
+var texture = cc.textureCache.addImage("hello.png");
+var textureAtlas = new cc.TextureAtlas();
+textureAtlas.initWithTexture(texture, 3);</pre>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Image}</span> <b>texture</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>capacity</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="insertQuad"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>insertQuad</b>(quad, index)
+					
+					</div>
+					<div class="description">
+						<p>Inserts a Quad (texture, vertex and color) at a certain index<br />
+index must be between 0 and the atlas capacity - 1 </p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{cc.V3F_C4B_T2F_Quad}</span> <b>quad</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>index</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="insertQuadFromIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>insertQuadFromIndex</b>(fromIndex, newIndex)
+					
+					</div>
+					<div class="description">
+						<p>Removes the quad that is located at a certain index and inserts it at a new index <br />
+This operation is faster than removing and inserting in a quad in 2 different steps</p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>fromIndex</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>newIndex</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="insertQuads"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>insertQuads</b>(quads, index, amount)
+					
+					</div>
+					<div class="description">
+						<p>
+     Inserts a c array of quads at a given index                                           <br />
+     index must be between 0 and the atlas capacity - 1                                    <br />
+     this method doesn't enlarge the array when amount + index > totalQuads                <br />
+</p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>quads</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>index</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>amount</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="isDirty"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{boolean}</span>
+					<b>isDirty</b>()
+					
+					</div>
+					<div class="description">
+						whether or not the array buffer of the VBO needs to be updated
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{boolean}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="moveQuadsFromIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>moveQuadsFromIndex</b>(oldIndex, amount, newIndex)
+					
+					</div>
+					<div class="description">
+						Moves an amount of quads from oldIndex at newIndex
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>oldIndex</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>amount</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>newIndex</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="removeAllQuads"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>removeAllQuads</b>()
+					
+					</div>
+					<div class="description">
+						<p>Removes all Quads. <br />
+The TextureAtlas capacity remains untouched. No memory is freed.<br />
+The total number of quads to be drawn will be 0</p>
+						
+						
+					</div>
+					
+					
+					
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="removeQuadAtIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>removeQuadAtIndex</b>(index)
+					
+					</div>
+					<div class="description">
+						<p>Removes a quad at a given index number.<br />
+The capacity remains the same, but the total number of quads to be drawn is reduced in 1 </p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>index</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="removeQuadsAtIndex"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>removeQuadsAtIndex</b>(index, amount)
+					
+					</div>
+					<div class="description">
+						Removes a given number of quads at a given index
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>index</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>amount</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="resizeCapacity"> </a>
+					<div class="fixedFont">
+					
+					<span class="light">{Boolean}</span>
+					<b>resizeCapacity</b>(newCapacity)
+					
+					</div>
+					<div class="description">
+						<p>Resize the capacity of the CCTextureAtlas.<br />
+The new capacity can be lower or higher than the current one<br />
+It returns YES if the resize was successful. <br />
+If it fails to resize the capacity it will return NO with a new capacity of 0. <br />
+no used for js</p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>newCapacity</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+							<dl class="detailList">
+							<dt class="heading">Returns:</dt>
+							
+								<dd><span class="light fixedFont">{Boolean}</span> </dd>
+							
+							</dl>
+						
+						
+						
+
+					<hr />
+				
+					<a name="setDirty"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setDirty</b>(dirty)
+					
+					</div>
+					<div class="description">
+						specify if the array buffer of the VBO needs to be updated
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Boolean}</span> <b>dirty</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setQuads"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setQuads</b>(quads)
+					
+					</div>
+					<div class="description">
+						
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Array}</span> <b>quads</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="setTexture"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>setTexture</b>(texture)
+					
+					</div>
+					<div class="description">
+						
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{Image}</span> <b>texture</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					<hr />
+				
+					<a name="updateQuad"> </a>
+					<div class="fixedFont">
+					
+					
+					<b>updateQuad</b>(quad, index)
+					
+					</div>
+					<div class="description">
+						<p>Updates a Quad (texture, vertex and color) at a certain index <br />
+index must be between 0 and the atlas capacity - 1 </p>
+						
+						
+					</div>
+					
+					
+					
+						
+							<dl class="detailList">
+							<dt class="heading">Parameters:</dt>
+							
+								<dt>
+									<span class="light fixedFont">{cc.V3F_C4B_T2F_Quad}</span> <b>quad</b>
+									
+								</dt>
+								<dd></dd>
+							
+								<dt>
+									<span class="light fixedFont">{Number}</span> <b>index</b>
+									
+								</dt>
+								<dd></dd>
+							
+							</dl>
+						
+						
+						
+						
+						
+						
+						
+
+					
+				
+			
+			
+<!-- ============================== event details ========================= -->		
+			
+			
+			<hr />
+		</div>
+
+		
+<!-- ============================== footer ================================= -->
+		<div class="fineprint" style="clear:both">
+			
+			Documentation generated by <a href="http://code.google.com/p/jsdoc-toolkit/" target="_blank">JsDoc Toolkit</a> 2.4.0 on Thu Nov 27 2014 11:52:47 GMT+0800 (CST)
+		</div>
+	</body>
+</html>
